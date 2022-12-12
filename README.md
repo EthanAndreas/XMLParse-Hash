@@ -30,7 +30,7 @@ Print articles the number of unique authors and the number of articles
 ./bin/exe -o <interface> -r -s 
  ```
  
- *Test's launch :
+ * Test's launch :
  ```bash
  cd tests
  make
