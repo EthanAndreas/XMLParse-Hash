@@ -20,8 +20,6 @@ void print_option(void) {
         "hash table\n\n"
         "\t-l WORD         show authors which include the word\n"
         "\t-a AUTHOR       show the articles of an author\n"
-        "\t-a AUTHOR -n N  show the co-authors from a distance of "
-        "N of the author\n\n"
         "\t-r              show the number of the authors of the "
         "file parsed\n"
         "\t-r -g           hash the file parsed and show the number "
