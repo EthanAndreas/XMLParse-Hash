@@ -1,36 +1,31 @@
-# XML file parsing with hashing
+# XML file parsing and hashing
+[![version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/EthanAndreas/XMLParse-Hash)
+[![compiler](https://img.shields.io/badge/compiler-gcc-red.svg)](https://github.com/EthanAndreas/XMLParse-Hash/blob/main/Makefile)
+[![author](https://img.shields.io/badge/author-EthanAndreas-blue)](https://github.com/EthanAndreas)
 
-## Language
+## Table of Contents
+1. [Abstract](#abstract)
+2. [Command](#command)
+3. [Tests](#tests)
 
-C
+## Command
 
-## Presentation
-
-* Project's compilation :
+- Compilation :
 ```bash
-make clean
 make
 ```
 
-* Project's launch :
-Print the time to parse and build the hashinge table
+- Launch :
 ```bash
-./bin/exe -i <interface> -o <interface> -p -g -t
+./bin/exe <options>
 ```
-Print the line of an that containing NAME
+
+- Help :
 ```bash
-./bin/exe -o <interface> -l NAME -a AUTHOR -r -s 
+./bin/exe -h
 ```
-Print articles of an author
-```bash
-./bin/exe -o <interface> -a AUTHOR 
-```
-Print articles the number of unique authors and the number of articles
-```bash
-./bin/exe -o <interface> -r -s 
- ```
  
- * Test's launch :
+ ## Tests 
  ```bash
  cd tests
  make
